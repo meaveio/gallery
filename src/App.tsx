@@ -18,7 +18,11 @@ const pexel = (id: number) =>
   `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`;
 const IMAGES = [
   // Front
-  { position: [0, 0, 1.5], rotation: [0, 0, 0], url: pexel(1103970) },
+  {
+    position: [0, 0, 1.5],
+    rotation: [0, 0, 0],
+    url: "/images/charleston.jpeg",
+  },
   // Back
   { position: [-0.8, 0, -0.6], rotation: [0, 0, 0], url: pexel(416430) },
   { position: [0.8, 0, -0.6], rotation: [0, 0, 0], url: pexel(310452) },
