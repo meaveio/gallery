@@ -21,7 +21,7 @@ const IMAGES = [
   {
     position: [0, 0, 1.5],
     rotation: [0, 0, 0],
-    url: "/images/charleston.jpeg",
+    url: "/gallery/images/charleston.jpeg",
   },
   // Back
   { position: [-0.8, 0, -0.6], rotation: [0, 0, 0], url: pexel(416430) },
