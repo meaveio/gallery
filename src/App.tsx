@@ -10,7 +10,7 @@ import {
   Environment,
   Loader,
 } from "@react-three/drei";
-import { Link, Route, useLocation, useRoute } from "wouter";
+import { useLocation, useRoute } from "wouter";
 import getUuid from "uuid-by-string";
 
 const URL_PREFIX = import.meta.env.PROD ? "/gallery" : "";
