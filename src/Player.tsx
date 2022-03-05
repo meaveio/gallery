@@ -59,7 +59,7 @@ export const Player = () => {
     <>
       {/* @ts-ignore */}
       <FirstPersonControls object={camera} ref={controls} />
-      <PointerLockControls />
+      {/* <PointerLockControls /> */}
     </>
   );
 };
