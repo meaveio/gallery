@@ -12,6 +12,7 @@ import {
 } from "@react-three/drei";
 import { useLocation, useRoute } from "wouter";
 import getUuid from "uuid-by-string";
+import Player from "./Player";
 
 const URL_PREFIX = import.meta.env.PROD ? "/gallery" : "";
 const GOLDENRATIO = 1.61803398875;
@@ -95,6 +96,7 @@ const App = () => {
               />
             </mesh>
           </group>
+          <Player />
         </Suspense>
       </Canvas>
       <Loader />
